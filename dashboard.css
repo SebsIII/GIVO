@@ -29,6 +29,7 @@ body{
   font-size:28px;
   font-weight:bold;
   color:white;
+  cursor: pointer;
 }
 
 .dashboard-nav ul{
@@ -44,6 +45,10 @@ body{
   text-decoration:none;
   color:white;
   transition:0.3s;
+}
+
+tr{
+  cursor: pointer;
 }
 
 .dashboard-nav a:hover{
