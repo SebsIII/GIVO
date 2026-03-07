@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GIVO Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<header class="dashboard-header">
+  <div class="logo">GIVO Dashboard</div>
+  <nav class="dashboard-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Submit Article</a></li>
+      <li><a href="#">My Certifications</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="dashboard-main">
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h1>Welcome back, <span class="username">Alex</span>!</h1>
+    <p>
+      This is your <strong>GIVO Dashboard</strong>, where you can manage your articles,
+      track your certification status, and see how your contributions are helping
+      readers access reliable knowledge.
+    </p>
+    <p>
+      Remember, every certified article strengthens your reputation and helps
+      the world access <strong>trustworthy information</strong>.
+    </p>
+  </section>
+
+  <!-- Overview Cards -->
+  <section class="overview-cards">
+    <div class="card total">
+      <h3>Total Articles Submitted</h3>
+      <p><strong>12</strong></p>
+    </div>
+    <div class="card gold">
+      <h3>Gold Certified</h3>
+      <p><strong>5</strong></p>
+    </div>
+    <div class="card silver">
+      <h3>Silver Certified</h3>
+      <p><strong>4</strong></p>
+    </div>
+    <div class="card bronze">
+      <h3>Bronze Certified</h3>
+      <p><strong>3</strong></p>
+    </div>
+  </section>
+
+  <!-- Recent Articles Table -->
+  <section class="recent-articles">
+    <h2>Your Recent Articles</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Date Submitted</th>
+          <th>Certification</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Understanding Quantum Computing</td>
+          <td>2026-02-20</td>
+          <td>Gold</td>
+          <td>Certified</td>
+        </tr>
+        <tr>
+          <td>The Rise of AI in Education</td>
+          <td>2026-02-25</td>
+          <td>Silver</td>
+          <td>Certified</td>
+        </tr>
+        <tr>
+          <td>Top 10 Health Myths Debunked</td>
+          <td>2026-03-01</td>
+          <td>Bronze</td>
+          <td>Certified</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Quick Actions -->
+  <section class="quick-actions">
+    <h2>Quick Actions</h2>
+    <div class="actions">
+      <a href="#" class="btn">Submit New Article</a>
+      <a href="#" class="btn">View Certification Guidelines</a>
+      <a href="#" class="btn">Update Profile</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="dashboard-footer">
+  <p>GIV Corp. - <strong>Knowledge is Power</strong></p>
+</footer>
+
+</body>
+</html>
